@@ -31,6 +31,7 @@ body {
   color: white;
   padding: 20px;
   display: flex;
+  gap: 50px;
   flex-wrap: wrap;
 }
 .main-hero {
@@ -196,6 +197,108 @@ body {
   text-align: start;
   padding: 10px;
 }
+
+/*
+    FOOTER SECTION
+*/
+.title {
+  padding: 100px;
+}
+.footer-section {
+  color: white;
+  background-color: #004243;
+  justify-content: space-around;
+  display: flex;
+}
+.talk-section h1 {
+  padding: 20px;
+}
+.talk-section p {
+  font-family: sans-serif;
+  border: 1px solid white;
+  padding: 15px 30px 15px 30px;
+  border-radius: 40px;
+}
+
+/*
+  BUSINESS HOURS
+*/
+.business-details {
+  color: black;
+  font-weight: bold;
+  background-color: #8ca7c2;
+  padding: 40px 70px 10px 30px;
+  border-radius: 40px;
+}
+.business-details p {
+  font-size: 19px;
+}
+/*
+
+  FOOTER
+
+*/
+.footer-basic {
+  padding: 40px 0;
+  background-color: #004243;
+  color: #4b4c4d;
+}
+
+.footer-basic ul {
+  color: white;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.footer-basic li {
+  padding: 0 10px;
+}
+
+.footer-basic ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity: 1;
+}
+
+.footer-basic .social {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.footer-basic .social > a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin: 0 8px;
+  color: inherit;
+  opacity: 0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity: 0.9;
+}
+
+.footer-basic .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #aaa;
+  margin-bottom: 0;
+}
+
 /*
   MQ FOR RESPONSIVE DESIGN 
 */
@@ -260,5 +363,13 @@ body {
     flex-wrap: wrap;
     padding: 50px;
     margin: 0px;
+  }
+  /*
+    FOOTER SECTION 
+  */
+  .footer-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
   }
 }
