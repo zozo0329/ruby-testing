@@ -1,0 +1,264 @@
+body {
+  margin: 0px;
+  font-family: forum, serif;
+}
+
+/*
+    HEADER SECTION
+*/
+.header-section {
+  background-color: #004243;
+}
+.header-section a {
+  color: white;
+  transition: 0.15s;
+}
+.header-section a:hover {
+  color: #8ca7c2;
+}
+.header-section a:active {
+  opacity: 0.6;
+  transition: 0.15s;
+}
+
+/*
+    TITLE OF MY PAGE??
+*/
+
+.title {
+  background-color: #004243;
+  font-size: 20px;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.main-hero {
+  background-color: #004243;
+}
+/*
+    MAIN SECTION 
+*/
+.main-section {
+  background-color: #004243;
+  color: white;
+  display: flex;
+  flex-wrap: nowrap;
+  margin-bottom: 100px;
+}
+
+.main-title h1 {
+  display: inline-block;
+  padding: 20px;
+  font-size: 100px;
+  margin: 150px 150px 50px 50px;
+}
+.buttonS {
+  display: flex;
+  gap: 20px;
+  margin: 0px 0px 0px 70px;
+}
+.buttonS button {
+  font-family: sans-serif;
+  padding: 15px;
+  border: 1px solid white;
+  background-color: #004243;
+  color: white;
+  border-radius: 50px;
+  font-size: 16px;
+  padding: 12px;
+  width: 240px;
+  margin-bottom: 50px;
+  transition: 0.3s;
+}
+.buttonS button:hover {
+  background-color: #8ca7c2;
+}
+
+.photo {
+  align-self: flex-end;
+}
+/*
+  SECOND SECTION
+*/
+
+.second-section {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: #004243;
+}
+.second-title h1 {
+  color: white;
+  font-size: 50px;
+  margin: 120px 120px 50px 120px;
+}
+.second-title button {
+  font-family: sans-serif;
+  padding: 15px;
+  border: 1px solid white;
+  background-color: #004243;
+  color: white;
+  border-radius: 50px;
+  font-size: 16px;
+  padding: 12px;
+  width: 240px;
+  margin: 0px 0px 0px 120px;
+  transition: 0.3s;
+}
+.second-section button:hover {
+  background-color: #8ca7c2;
+}
+
+/*
+  SALES SECTION
+*/
+.sales-title {
+  margin-top: 50px;
+}
+.sales-section {
+  background-color: #004243;
+}
+.sales-section p {
+  font-family: sans-serif;
+}
+.sales-section h1 {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: white;
+}
+.sales-items {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+.sales-items img {
+  margin-bottom: 30px;
+}
+.item-description {
+  color: white;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  text-align: center;
+  padding: 10px;
+}
+
+/*
+  RENT SECTION 
+*/
+
+.sales-title h1 {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+
+/*
+
+  CLIENT FEEDBACKS
+
+*/
+.bgc {
+  background-color: #004243d7;
+}
+.feedback-section {
+  background-image: url(images/house1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.happy-client {
+  margin: 200px 50px 150px 100px;
+  padding: 100px 100px 0px 100px;
+}
+.happy-client h1 {
+  color: white;
+  font-size: 46px;
+}
+
+.feedbacks {
+  color: white;
+  display: flex;
+  gap: 70px;
+  justify-content: space-around;
+  margin: 150px;
+  margin-bottom: 0px;
+}
+.client {
+  padding: 70px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  text-align: start;
+  padding: 10px;
+}
+/*
+  MQ FOR RESPONSIVE DESIGN 
+*/
+
+@media (max-width: 1250px) {
+  .title {
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+  }
+  .main-section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .main-title h1 {
+    font-size: 70px;
+    margin: 40px;
+  }
+  .buttonS {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px;
+    align-items: center;
+  }
+  .photo img {
+    width: 100%;
+  }
+  /*
+      SECOND SECTION
+  */
+  .second-section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .second-section img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0px 0px 0px 10px;
+  }
+  .second-title h1 {
+    font-size: 40px;
+  }
+
+  /*
+    sales section
+  */
+  .sales-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .sales-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .feedbacks {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    margin: 0px;
+  }
+}
